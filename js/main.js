@@ -1,7 +1,7 @@
 // main.js
 
 let app = {
-    URL: 'http://api.themoviedb.org/3/',
+    URL: 'https://api.themoviedb.org/3/',
     imageURL: "https://image.tmdb.org/t/p/w300/",
     currentlyActive: null,
     init: function () {
