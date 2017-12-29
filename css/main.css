@@ -1,0 +1,128 @@
+/*main.css*/
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Source+Serif+Pro');
+
+*{
+    padding: 1rem;
+    margin: 0;
+    box-sizing:border-box;
+    background-color: limegreen;
+}
+html{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Fira Sans", Arial, Calibri, sans-serif;
+}
+h1, h2, h3{    
+    font-family: "Source Serif Pro", "Times New Roman", "Palatino Linotype", serif;
+}
+.page{
+    display:none;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.page.active{
+    display: block;
+}
+
+.attribution{
+    padding 1rem;
+    text-align: center;
+}
+.attribution{
+    width: 80%;
+    max-width: 500px
+}
+.search{
+    position:fixed;
+    z-index:100;
+    height: 5.04rem;
+    top: 0;
+    right:0;
+    left:0;
+    border: none;
+    border-bottom: 1px solid #333;
+    box-shadow: 0 2px 4px #000;
+}
+#search-button{
+    position:fixed;
+    z-index:120;
+    top:0;
+    right:0;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-left: solid 3px black;
+}
+#back-button{
+    position:fixed;
+    z-index:120;
+    top:0;
+    left:0;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-right: solid 3px black;
+}
+#search-input{
+    position:fixed;
+    z-index: 115;
+    height: 5.02rem;
+    width: 100%;
+    padding-left: 1rem;
+    margin-top: -1rem;
+    margin-left: 4rem;
+    font-size: 2rem;
+    border: none;
+    border-bottom: 0rem solid black;
+}
+.movie{
+    border: 1px solid #ddd;
+    padding: 1rem;
+    overflow: auto;
+    clear: both;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.movie:hover{
+    background-color:lime;
+}
+.movie-title{
+    font-size: 2rem;
+}
+.movie-desc{
+    font-size: 1rem;
+    color: #999;
+}
+#text, .title p{
+    font-size: 1.5rem;
+}
+.card{
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    background-color: #52dd52;
+    min-height: 700px;
+    transform: translateX(0%);
+    transition: all 1s ease;
+}
+.card p{
+    background-color: #52dd52;
+    text-indent: 30px;
+}
+.card img{
+    background-color: black;
+    border-radius: 10px;
+    color: limegreen;
+    float: left;
+    max-height: 500px;
+    max-width: 400px;
+    margin: 0 1rem 1rem 0;
+    margin-left: 20px;
+}
