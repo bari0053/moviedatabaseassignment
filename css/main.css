@@ -17,14 +17,13 @@ h1, h2, h3{
     font-family: "Source Serif Pro", "Times New Roman", "Palatino Linotype", serif;
 }
 .page{
-    display:none;
+    display: none;
     padding: 1rem;
     margin-top: 1rem;
 }
 .page.active{
     display: block;
 }
-
 .attribution{
     padding 1rem;
     text-align: center;
@@ -101,7 +100,7 @@ h1, h2, h3{
     color: #999;
 }
 #text, .title p{
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 .card{
     border: solid 2px black;
@@ -109,8 +108,8 @@ h1, h2, h3{
     margin-bottom: 2rem;
     background-color: #52dd52;
     min-height: 700px;
-    transform: translateX(0%);
-    transition: all 1s ease;
+    min-width: 425px;
+    box-shadow: 5px 5px 5px 5px black;
 }
 .card p{
     background-color: #52dd52;
