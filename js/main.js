@@ -114,7 +114,6 @@ let app = {
         container.innerHTML = "";
         movies.results.forEach(function (movie) {
             let div = document.createElement('div');
-            div.id = "card";
             let h2 = document.createElement('h2');
             let p = document.createElement('p');
             let img = document.createElement('img');
