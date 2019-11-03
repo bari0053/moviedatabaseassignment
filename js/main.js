@@ -37,7 +37,7 @@ let app = {
         ev.preventDefault();
         let input = document.getElementById('search-input');
         if (input.value) {
-            let url = app.URL + "search/movie?api_key=" + KEY + "&id=" + input.value;
+            let url = app.URL + "search/movie?api_key=" + KEY + "&query=" + input.value;
             fetch(url)
                 .then(response => response.json())
                 .then(data => {
